@@ -1,0 +1,17 @@
+.cover__link {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+@media screen and (max-width: 425px) {
+    .cover__link {
+        gap: 16px;
+    }
+}
