@@ -8,3 +8,11 @@
     line-height: 36px;
     font-weight: normal;
 }
+
+@media screen and (max-width: 768px) {
+    .lead__subtitle {
+        font-size: 16px;
+        line-height: 20px;
+
+    }
+}
