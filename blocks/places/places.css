@@ -1,0 +1,35 @@
+.places {
+    margin: 0 148px;
+    margin-bottom: 92px;
+    max-width: 984px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    .places {
+        margin: 0 auto;
+        margin-bottom: 92px;
+        max-width: 928px;
+        padding: 0 48px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .places {
+        margin: 0 auto;
+        margin-bottom: 90px;
+        max-width: 720px;
+        padding: 0 24px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .places {
+        margin: 0;
+        margin-bottom: 88px;
+        max-width: 100%;
+        padding: 0;
+    }
+}

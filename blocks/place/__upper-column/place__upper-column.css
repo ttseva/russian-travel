@@ -1,0 +1,13 @@
+.place__upper-column{
+    display: flex;
+    gap: 40px;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+    .place__upper-column {
+        display: block;
+        margin-bottom: 32px;
+        padding: 0 16px;
+    }
+}

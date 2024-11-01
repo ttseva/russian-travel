@@ -1,0 +1,10 @@
+.place__lower-column {
+    display: flex;
+    gap: 40px;
+}
+
+@media screen and (max-width: 767px) {
+    .place__lower-column {
+        display: block;
+    }
+}

@@ -1,0 +1,30 @@
+.place__title {
+    font-family: "Inter-Black", sans-serif;
+    font-size: 72px;
+    line-height: 76px;
+    flex-basis: 460px;
+}
+
+@media screen and (min-width: 425px) and (max-width: 1024px) {
+    .place__title {
+        flex-basis: 340px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .place__title {
+        margin-bottom: 32px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
